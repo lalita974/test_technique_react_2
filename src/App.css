@@ -1,0 +1,162 @@
+/* GENERAL */
+
+/* * {
+  box-sizing: border-box;
+  font-family: "Nintendo U", sans-serif;
+} */
+
+#root {
+  background-color: red;
+  font-family: "Nintendo U", sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  font-size: inherit;
+  font-family: inherit;
+  border: none;
+  background-color: #fff;
+}
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+  padding: 10px 20px 10px 20px;
+  background-color: #fff;
+  height: 100%;
+}
+
+/* HEADER */
+
+header img {
+  height: 50px;
+  object-fit: cover;
+}
+
+header > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid red;
+}
+
+button {
+  font-weight: bold;
+}
+
+/* HOME */
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* POKEMONS LIST */
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.list-pokemons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.list-pokemons-cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* CARD POKEMON */
+
+.card-pokemon {
+  border: 2px solid #000;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.card-pokemon a {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* TYPES LIST */
+
+.list-types {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  height: 100vh;
+}
+
+.list-types-cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* CARD TYPE */
+
+.card-type {
+  border: 2px solid #000;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.card-type a {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* POKEMON & TYPE*/
+
+.mise-en-page-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  /* height: 100vh; */
+}
+
+.pokemon-detail {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.type-detail {
+  display: flex;
+  flex-direction: column;
+}
